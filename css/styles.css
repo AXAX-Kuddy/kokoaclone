@@ -4,11 +4,12 @@
 
 /*components*/
 @import "com/status-bar.css";
-@import "com/nav-bar";
+@import "com/nav-bar.css";
 
 /*login-page*/
 @import "login.css";
 
 body {
   font-family: "Lato", sans-serif;
+  height: 100000vh;
 }
