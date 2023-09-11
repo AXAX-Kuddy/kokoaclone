@@ -5,11 +5,17 @@
 /*components*/
 @import "com/status-bar.css";
 @import "com/nav-bar.css";
+@import "com/screen-header.css";
+@import "com/user-com.css";
 
 /*login-page*/
 @import "login.css";
 
+/*friends-page*/
+@import "friends.css";
+
 body {
   font-family: "Lato", sans-serif;
-  height: 100000vh;
+  color: #2e363e;
+  height: 100vh;
 }
