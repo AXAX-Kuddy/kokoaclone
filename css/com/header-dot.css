@@ -1,0 +1,16 @@
+.screen-header__icon {
+  position: relative;
+}
+
+.red-dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 27px;
+  top: -10px;
+}

@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,52 +22,32 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icon">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-regular fa-comment-dots fa-xl"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span><i class="fa-solid fa-gear fa-lg"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link"
-      ><i class="fa-solid fa-circle-info"></i>Friends' Names Display<i
-        class="fa-solid fa-chevron-right fa-2xs"
-      ></i
-    ></a>
-
-    <main class="friends-screen">
+    <main class="main-screen">
       <div class="user-com">
         <div class="user-com__column">
           <img
-            src="https://www.animesenpai.net/wp-content/uploads/2022/12/Bocchi-The-Rock-21-1024x576.webp"
-            class="user-com__avatar user-com__avatar--xl"
+            src="https://mblogthumb-phinf.pstatic.net/MjAxODAyMDJfOTAg/MDAxNTE3NTAyODA4ODI0.cxuAkiwL2Dw5FUxUYWTwA2GUwlqpLzgRwjHirNDC6Cog.fTa3ixKaDFaD7DM6ctC0BodxnM_1DTdUsp3IzmOwsJkg.PNG.marketstory24/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1_%EB%A1%9C%EA%B3%A0_3.png?type=w800"
+            class="user-com__avatar user-com__avatar"
           />
           <div class="user-com__text">
-            <h4 class="user-com__title">Bocchi</h4>
-            <!-- <h6 class="user-com__subtitle">Bocchi is cute</h6> -->
+            <h4 class="user-com__title">Kokoa Talk</h4>
+            <h6 class="user-com__subtitle">
+              Please check My kokoa Account info
+            </h6>
           </div>
         </div>
-        <div class="user-com__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-2xs"></i>
-        </div>
-        <div class="user-com">
-          <div class="user-com__column">
-            <img
-              src="https://mblogthumb-phinf.pstatic.net/MjAxODAyMDJfOTAg/MDAxNTE3NTAyODA4ODI0.cxuAkiwL2Dw5FUxUYWTwA2GUwlqpLzgRwjHirNDC6Cog.fTa3ixKaDFaD7DM6ctC0BodxnM_1DTdUsp3IzmOwsJkg.PNG.marketstory24/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1_%EB%A1%9C%EA%B3%A0_3.png?type=w800"
-              class="user-com__avatar user-com__avatar--sm"
-            />
-            <div class="user-com__text">
-              <h4 class="user-com__title user-com__title--not-bold">Channel</h4>
-            </div>
-          </div>
-          <div class="user-com__column">
-            <span>2<i class="fa-solid fa-chevron-right fa-2xs"></i></span>
-          </div>
+        <div class="user-com__column">
+          <span class="user-com__time">21:22</span>
+          <div class="badge">1</div>
         </div>
       </div>
     </main>
@@ -75,12 +55,12 @@
       <ul class="nav__ul">
         <li class="nav__li">
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
+            ><i class="fa-regular fa-user fa-2x"></i
           ></a>
         </li>
         <li>
           <a class="nav__link" href="chats.html"
-            ><i class="fa-regular fa-comment fa-2x">
+            ><i class="fa-solid fa-comment fa-2x">
               <span class="nav__notification badge">1</span>
             </i>
           </a>

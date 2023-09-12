@@ -7,6 +7,7 @@
 @import "com/nav-bar.css";
 @import "com/screen-header.css";
 @import "com/user-com.css";
+@import "com/badge.css";
 
 /*login-page*/
 @import "login.css";
@@ -14,8 +15,14 @@
 /*friends-page*/
 @import "friends.css";
 
+/*find page*/
+@import "find.css";
+
 body {
   font-family: "Lato", sans-serif;
   color: #2e363e;
   height: 100vh;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
