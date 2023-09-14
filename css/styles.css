@@ -9,6 +9,7 @@
 @import "com/user-com.css";
 @import "com/badge.css";
 @import "com/icon-row.css";
+@import "com/alt-screen-header.css";
 
 /*login-page*/
 @import "login.css";
@@ -22,10 +23,16 @@
 /*more page*/
 @import "more.css";
 
+/*setting page*/
+@import "setting.css";
+
+/*chat page*/
+@import "chat.css";
+
 body {
   font-family: "Lato", sans-serif;
   color: #2e363e;
-  height: 100vh;
+  height: 200vh;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
