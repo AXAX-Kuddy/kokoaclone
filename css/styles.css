@@ -8,6 +8,7 @@
 @import "com/screen-header.css";
 @import "com/user-com.css";
 @import "com/badge.css";
+@import "com/icon-row.css";
 
 /*login-page*/
 @import "login.css";
@@ -17,6 +18,9 @@
 
 /*find page*/
 @import "find.css";
+
+/*more page*/
+@import "more.css";
 
 body {
   font-family: "Lato", sans-serif;
