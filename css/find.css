@@ -89,6 +89,7 @@
   height: 120px;
   border-radius: 10px;
 }
+
 .opne-post__heart-count {
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
@@ -103,4 +104,24 @@
 }
 .opne-post__heart-count span {
   margin-left: 3px;
+}
+
+@keyframes heartbeats {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.opne-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartbeats 1s linear infinite;
 }
