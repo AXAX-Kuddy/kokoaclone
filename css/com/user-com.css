@@ -14,6 +14,7 @@
 .user-com:hover {
   border-radius: 30px;
   background-color: rgba(10, 10, 10, 0.1);
+  border-radius: 30px;
 }
 
 .user-com__avatar {
