@@ -11,14 +11,23 @@
   font-size: 32px;
   font-weight: 600;
 }
+.alt-header__column {
+  width: 33%;
+}
+
 .alt-header__column:first-child {
   margin-right: auto;
 }
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
 .alt-header__column:last-child {
-  position: relative;
+  display: flex;
+  justify-content: flex-end;
   margin-left: auto;
 }
-.alt-header__column:nth-child(3) {
-  position: absolute;
-  right: 70px;
+
+.alt-header__column span:nth-child(2) {
+  margin-left: 20px;
 }
