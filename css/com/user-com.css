@@ -8,9 +8,11 @@
   align-items: center;
   margin-bottom: 5px;
   transition: background-color 0.3s ease-in-out;
+  border-radius: 30px;
 }
 
 .user-com:hover {
+  border-radius: 30px;
   background-color: rgba(10, 10, 10, 0.1);
 }
 
