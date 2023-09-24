@@ -15,8 +15,11 @@
   width: 33%;
 }
 
-.alt-header__column:nth-child(2) {
+.alt-header__column:first-child {
   margin-right: auto;
+}
+.alt-header__column:nth-child(2) {
+  text-align: center;
 }
 
 .alt-header__column:last-child {
@@ -28,4 +31,3 @@
 .alt-header__column span:nth-child(2) {
   margin-left: 20px;
 }
-/*test*/
